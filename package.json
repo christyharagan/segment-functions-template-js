@@ -1,0 +1,33 @@
+{
+  "name": "segment-functions-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "node ./run.js proxy",
+    "deploy": "node ./run.js deploy"
+  },
+  "author": "Christy Haragan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/atob": "^2.1.2",
+    "@types/btoa": "^1.2.3",
+    "@types/lodash": "^4.14.150",
+    "@types/node-fetch": "^2.5.7",
+    "@types/oauth": "^0.9.1",
+    "@types/xml": "^1.0.4"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "aws-sdk": "^2.677.0",
+    "btoa": "^1.2.1",
+    "koa": "^2.11.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "oauth": "^0.9.15",
+    "segment-functions-debugger": "git+https://git@github.com/christyharagan/segment-functions-debugger.git",
+    "segment-local-functions": "git+https://git@github.com/christyharagan/segment-functions-debugger.git",
+    "segment-typescript-definitions": "^0.2.3",
+    "xml": "^1.0.1"
+  }
+}
